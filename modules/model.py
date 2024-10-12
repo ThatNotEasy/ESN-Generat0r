@@ -1,0 +1,22 @@
+class DeviceType:
+    Chrome = "NFCDCH-02-"
+    AndroidFHD = "NFANDROID1"
+    AndroidUHD = "NFANDROID2"
+    AndroidWear = "NFANDROIDW"
+    Roku = "NFRK-"
+    AppleTV = "NFAPPLETV-"
+    AmazonFireTV = "NFAFTV-"
+    SmartTV = "NFSTV-"
+    GameConsole = "NFGC-"
+
+class DeviceSubType:
+    ChromeOS = "-PRV-C"
+    AndroidTablet = "-PRV-T"
+    AndroidPhone = "-PRV-P"
+    AndroidTV = "-PRV"
+    AndroidWearable = "-PRV-W"
+    RokuStreaming = "-PRV-RK"
+    AppleTVStreaming = "-PRV-AT"
+    FireTVStreaming = "-PRV-FTV"
+    SmartTVStreaming = "-PRV-STV"
+    GameConsoleStreaming = "-PRV-GC"
